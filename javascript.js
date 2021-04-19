@@ -4,6 +4,11 @@ $(document).ready(function(){
     var view = true;
     if(view){
       $('.hamburger-menu').css("display","block");
+      $('.hamburger-menu').css("display","block");
+      $('.hamburger-menu').css("min-width","0");
+      $('.hamburger-menu').css("min-height","0");
+      $('.hamburger-menu').css("width","30%");
+      $('.hamburger-menu').css("height","80%");
     }
   });
 
